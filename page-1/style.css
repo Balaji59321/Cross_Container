@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Comforter Brush", cursive;
+  background-color: #40005d;
+  position: relative;
+  border-top-left-radius: 50px;
+}
+
+.absolute-div {
+  position: absolute;
+  color: white;
+  display: block;
+  top: -1%;
+  left: 50%;
+  transform: translate(-50%, 1%);
+  background-color: #40005d;
+  padding: 0 50px;
+}
+
+.top-bg-div {
+  margin: 3rem 3.2rem;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border: 3px dotted white;
+  border-bottom: 0;
+  padding: 5rem;
+}
+
+.bottom-bg-div {
+  margin: 3rem 3.2rem;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border: 3px dotted white;
+  border-top: 0;
+  padding: 5rem 2rem;
+}
+
+h1 {
+  font-size: 4.8rem;
+  letter-spacing: 10px;
+  margin: 0;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+.margin {
+  margin-top: -10rem;
+}
+
+.margin-bot {
+  margin-bottom: -10rem;
+}
+
+.top-section {
+  padding: 3.2rem 0;
+  /* border-top-left-radius: 50px;
+  border-top-right-radius: 50px; */
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.top-container {
+  height: 30rem;
+  color: white;
+  margin: 0rem 3rem 0 3rem;
+  background-color: #40005d;
+}
+
+.bottom-container {
+  height: 20rem;
+  color: white;
+  margin: 3rem 3rem 0 3rem;
+  background-color: #40005d;
+}
+
+.skew {
+  color: white;
+  border-top: 0;
+  border-bottom: 0;
+  padding: 3.2rem 0;
+  margin: -1px 3.2rem;
+  border: 3px dotted white;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.transform {
+  transform: skewY(-8deg);
+}
+
+.skew-text {
+  transform: skewY(6deg);
+  padding: 3rem;
+  height: 30rem;
+}
+
+.grey {
+  background-color: #555;
+  color: white;
+}
+
+.orange {
+  background-color: rgb(200, 192, 177);
+}
+
+.pink {
+  background-color: rgb(228, 204, 208);
+}
+
+.blue {
+  background-color: rgb(176, 176, 233);
+}
+
+.yellow {
+  background-color: rgb(197, 169, 131);
+}
+
+.bottom-section {
+  padding: 3.2rem 0;
+}
+
+.padding {
+  padding: 0 2.4rem;
+}
